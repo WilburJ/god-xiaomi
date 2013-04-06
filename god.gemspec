@@ -2,8 +2,8 @@ Gem::Specification.new do |s|
   s.specification_version = 2 if s.respond_to? :specification_version=
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
 
-  s.name = 'god-xiaomi'
-  s.version = '0.13.2'
+  s.name = 'god'
+  s.version = '1.13.2'
   s.date = '2013-04-06'
 
   s.summary = "Process monitoring framework."
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email = 'wilbur.topcoder@gmail.com'
   s.homepage = 'http://god.rubyforge.org/'
 
-  s.rubyforge_project = 'god-xiaomi'
+  s.rubyforge_project = 'god'
   s.rubygems_version = '1.3.5'
   s.require_paths = %w[lib ext]
 
@@ -51,6 +51,7 @@ Gem::Specification.new do |s|
     ext/god/extconf.rb
     ext/god/kqueue_handler.c
     ext/god/netlink_handler.c
+    ext/god/netlink_handler_ext.so
     god.gemspec
     lib/god.rb
     lib/god/behavior.rb
@@ -132,7 +133,6 @@ Gem::Specification.new do |s|
     test/configs/stop_options/stop_options.god
     test/configs/stress/simple_server.rb
     test/configs/stress/stress.god
-    test/configs/task/logs/.placeholder
     test/configs/task/task.god
     test/configs/test.rb
     test/helper.rb

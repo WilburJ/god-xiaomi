@@ -156,7 +156,7 @@ end
 
 module God
   # The String version number for this package.
-  VERSION = '0.13.2-xiaomi'
+  VERSION = '1.13.2'
 
   # The Integer number of lines of backlog to keep for the logger.
   LOG_BUFFER_SIZE_DEFAULT = 100
