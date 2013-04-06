@@ -1,0 +1,14 @@
+rdoc
+coverage
+pkg
+*.log
+logs
+*.rbc
+*~
+.*.sw?
+.DS_Store
+Gemfile.lock
+bbin/
+.bundle
+site/index.html
+gh-pages
