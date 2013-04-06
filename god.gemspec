@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.summary = "Process monitoring framework."
   s.description = "An easy to configure, easy to extend monitoring framework written in Ruby."
 
-  s.authors = ["Tom Preston-Werner", "Kevin Clark", "Eric Lindvall"]
-  s.email = 'god-rb@googlegroups.com'
+  s.authors = ["Jing Yuan"]
+  s.email = 'wilbur.topcoder@gmail.com'
   s.homepage = 'http://god.rubyforge.org/'
 
   s.rubyforge_project = 'god-xiaomi'
